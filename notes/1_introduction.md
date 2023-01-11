@@ -43,3 +43,23 @@ Type | Default Value
 `double d{};` | `d = 0.0`
 `std::vector<int> v{};` |`v = empty vector`
 `std::string s{};` | `s = ""`
+
+## Auto
+
+If you can't be bothered to identify the type, use the keyword `auto`. 
+
+```c++
+auto a{5}; //Int
+auto b{"hi"}; //String
+```
+but you cannot change types
+```c++
+auto c{3};
+c = "Hi"; //Error
+```
+
+Best use auto for complicated stuff you don't want to figure out the type for
+
+```c++
+auto u{std::make_unique<int>()}; // Type u: std::unique_ptr<int, std::default_delete<int>>
+```
