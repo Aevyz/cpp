@@ -1,8 +1,6 @@
-# CPP
+# C++ Basics
 
-## Basics
-
-### Declaring a variable
+## Declaring a variable
 
 Safe
 ```c++
@@ -37,7 +35,7 @@ S s{1, "hello"}; //Struct s has 1 and "hello" in it
 
 Items with `std::initializer_list<T>` can accept multiple initialization values using `{}`, e.g. `std::vector`. Other items, such as `std::complex` treat `{}` as constructor, e.g. `std::complex<double> z{0, 1};`
 
-### Default Values
+## Default Values
 
 Type | Default Value
 ---|---
