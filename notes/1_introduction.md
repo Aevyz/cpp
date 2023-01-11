@@ -26,7 +26,7 @@ std::vector<std::string> v1{"hello"}; // v1 is a vector with 1 element, "hello"
 std::vector<std::string> v2("hello"); // v2 errors out
 ```
 
-For structs:
+### For structs
 
 ```c++
 struct S { int x; std::string s; };
