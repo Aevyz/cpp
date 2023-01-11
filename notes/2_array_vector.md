@@ -39,4 +39,18 @@ float b[3] = {0.1, 0.2, 0.3}
 
 e.g.
 
-``
+```c++
+for(std::vector<int> a{1,2,3,4,5,6,7}; auto i : a){
+    std::cout << i << ", ";
+}
+```
+
+The optional init is only executed once, and a will only be valid for the `for` loops scope.
+
+
+```c++
+for(std::vector<int> a{1,2,3,4,5,6,7}; auto i : a){
+    std::cout << i << ", ";
+}
+a[1] = 5; // ERROR
+```
