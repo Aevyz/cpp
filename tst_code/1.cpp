@@ -11,5 +11,13 @@ int main() {
     }
     
     std::cout << a << "\n";
+
+    int inc = 5;
+
+    std::cout << "Increment" << "\n";
+    std::cout << ++inc << "\n";
+    std::cout << inc << "\n";
+    std::cout << inc++ << "\n";
+    std::cout << inc << "\n";
     return 0;
 }
