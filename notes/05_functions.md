@@ -35,4 +35,6 @@ int foo(int a, int b = 2, int c = 3){
 foo(1);//6
 foo(1,1);//5
 foo(1,1,1)//3
+
+//Cannot do foo(a=4, c=1)
 ```
