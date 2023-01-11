@@ -10,11 +10,11 @@ int main() {
         std::cout << i << ", ";
     }
     
-    std::cout << a << "\n";
 
     int inc = 5;
 
-    std::cout << "Increment" << "\n";
+    std::cout << "\n" <<"Increment" << "\n";
+    std::cout << inc << "\n";
     std::cout << ++inc << "\n";
     std::cout << inc << "\n";
     std::cout << inc++ << "\n";
