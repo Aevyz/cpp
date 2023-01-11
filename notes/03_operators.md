@@ -66,6 +66,11 @@ Undefined behavior occurs when
 - b can be lvalue or rvalue
 
 ```c++
+int a,b,c;
+a = b = c = 42;
+```
+
+```c++
 int computeValue(){
     return 0;
 }
