@@ -1,5 +1,6 @@
 # Operators
 
+Operator | Example
 ---|---
 Unary Operators | Negation -a, address-of &a, dereference *a
 Binary Operators | Equality a==a, multiplication a*a
@@ -9,6 +10,7 @@ Ternary Operators | a ? b : c
 
 ## Arithmetic Operators
 
+Operator | Meaning
 ---|---
 +a | unary plus
 -a | unary minus
