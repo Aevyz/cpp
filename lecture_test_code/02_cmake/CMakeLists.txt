@@ -1,0 +1,2 @@
+add_subdirectory(no_namespace)
+add_subdirectory(namespace)

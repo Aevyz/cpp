@@ -3,3 +3,5 @@ compiled/*.html
 bin/index_2.js
 node_modules/
 tst_code/a.out
+cmake/
+lecture_test_code/.build/
